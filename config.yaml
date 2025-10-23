@@ -1,14 +1,14 @@
 cookie:
   expiry_days: 30
-  key: 'SOME_VERY_LONG_AND_RANDOM_SECRET_KEY' # MUST BE CHANGED
+  key: 'SOME_VERY_LONG_AND_RANDOM_SECRET_KEY'
   name: 'menstrual_tracker_cookie'
 credentials:
   usernames:
-    rouba_user: # Example Username
+    rouba_user:
       email: rouba@example.com
       name: Rouba
-      password: $2b$12$R.S/I.yD.0O2x3h4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i # Hashed password (e.g., 'test1234')
-    guest_user: # Another Example Username
+      password: $2b$12$R.S/I.yD.0O2x3h4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7g8h9i
+    guest_user:
       email: guest@app.com
       name: Guest
-      password: $2b$12$NqNf9I0gLwE5/1Z/4F/Sg.pP5D0M9/5M/4k/7Q/9g/7s/4p/8G/2C/8F/2I/1k/9M/4K/9 # Hashed password (e.g., 'guestpass')
+      password: $2b$12$NqNf9I0gLwE5/1Z/4F/Sg.pP5D0M9/5M/4k/7Q/9g/7s/4p/8G/2C/8F/2I/1k/9M/4K/9
