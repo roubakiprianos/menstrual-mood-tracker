@@ -8,7 +8,7 @@ from yaml.loader import SafeLoader
 import psycopg2
 from psycopg2 import sql
 import datetime
-
+ 
 # =======================================================
 # 1. CONFIGURATION AND AUTHENTICATION SETUP
 # =======================================================
