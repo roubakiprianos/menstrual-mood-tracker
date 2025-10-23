@@ -183,7 +183,7 @@ if not st.session_state.history_df.empty:
                 'Neutral_Score': 'gray'
             }
         )
-        
+         
         fig_period.update_layout(
             yaxis_range=[0, 0.7], 
             legend_title_text='Emotion Score',
